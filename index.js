@@ -6,7 +6,7 @@ for (var i = 0; i < drumElements.length; i++) {
   currentElement.addEventListener("click", function() {
     var currentWord = this.innerHTML;
     slapKeyboard(currentWord);
-    pressedKey(event.key);
+    pressedKey(currentWord);
   });
 }
 
